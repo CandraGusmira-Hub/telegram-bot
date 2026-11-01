@@ -1,0 +1,25 @@
+
+{
+  "name": "cpersonal-task-bot",
+  "version": "1.0.0",
+  "description": "Telegram personal task management bot",
+  "main": "dist/bot.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/bot.ts",
+    "build": "tsc",
+    "start": "node dist/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "grammy": "^1.46.0"
+  }
+}
